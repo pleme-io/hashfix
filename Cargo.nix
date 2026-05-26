@@ -789,7 +789,7 @@ rec {
       };
       "hashfix" = rec {
         crateName = "hashfix";
-        version = "0.1.0";
+        version = "0.1.1";
         edition = "2024";
         crateBin = [
           {
@@ -2106,7 +2106,7 @@ rec {
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/shikumi";
           rev = "22f29fd7f7c10326cafdb583f9c5f3e7d0425cc1";
-          sha256 = "sha256-TQFT66F2O9AH1MjdkaQsrbDAS1qARzDpe8lemWhba/4=";
+          sha256 = "1zkbbdl9jpn9gglk0iw0b95w1c5d5jj93pf8sh3x0fvnl7mm60ad";
         };
         dependencies = [
           {
