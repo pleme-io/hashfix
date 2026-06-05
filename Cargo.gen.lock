@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "1c0946708628c5efedd15b5d9127b52aaf09d772ff0cceffd04eed78236e9f9a",
+  "cargo_lock_sha256": "1847b5f3e9b408eff911ae5f8194abaecdd5356fe4542b5385c860db70935063",
   "target_resolves": {
     "base": {
       "aho-corasick-1.1.4": {
         "runtime_dependencies": [
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -206,7 +206,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "bitflags-2.11.1": {
+      "bitflags-2.12.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -244,7 +244,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "chrono-0.4.44": {
+      "chrono-0.4.45": {
         "runtime_dependencies": [
           {
             "name": "iana_time_zone",
@@ -580,7 +580,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-macros-0.1.8": {
+      "gen-macros-0.1.9": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -619,11 +619,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-platform-0.1.8": {
+      "gen-platform-0.1.9": {
         "runtime_dependencies": [
           {
             "name": "gen_macros",
-            "package_key": "gen-macros-0.1.8",
+            "package_key": "gen-macros-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -633,7 +633,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.8",
+            "package_key": "gen-types-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -687,7 +687,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-types-0.1.8": {
+      "gen-types-0.1.9": {
         "runtime_dependencies": [
           {
             "name": "blake3",
@@ -701,7 +701,7 @@
           },
           {
             "name": "chrono",
-            "package_key": "chrono-0.4.44",
+            "package_key": "chrono-0.4.45",
             "kind": "normal",
             "features": [
               "serde"
@@ -870,7 +870,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "hashfix-0.1.1": {
+      "hashfix-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -928,7 +928,7 @@
           },
           {
             "name": "shikumi",
-            "package_key": "shikumi-0.1.1",
+            "package_key": "shikumi-0.1.5",
             "kind": "normal",
             "features": [
               "cli"
@@ -1052,7 +1052,7 @@
           "std"
         ]
       },
-      "log-0.4.30": {
+      "log-0.4.32": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -1075,7 +1075,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "memchr-2.8.0": {
+      "memchr-2.8.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -1083,7 +1083,7 @@
           "std"
         ]
       },
-      "mio-1.2.0": {
+      "mio-1.2.1": {
         "runtime_dependencies": [
           {
             "name": "libc",
@@ -1097,7 +1097,7 @@
           },
           {
             "name": "log",
-            "package_key": "log-0.4.30",
+            "package_key": "log-0.4.32",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1118,7 +1118,7 @@
         "runtime_dependencies": [
           {
             "name": "bitflags",
-            "package_key": "bitflags-2.11.1",
+            "package_key": "bitflags-2.12.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1372,7 +1372,7 @@
           },
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1436,7 +1436,7 @@
           },
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1617,7 +1617,7 @@
           },
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1742,7 +1742,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shikumi-0.1.1": {
+      "shikumi-0.1.5": {
         "runtime_dependencies": [
           {
             "name": "arc_swap",
@@ -1792,7 +1792,7 @@
           },
           {
             "name": "gen_platform",
-            "package_key": "gen-platform-0.1.8",
+            "package_key": "gen-platform-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1802,7 +1802,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.8",
+            "package_key": "gen-types-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2344,7 +2344,7 @@
         "runtime_dependencies": [
           {
             "name": "log",
-            "package_key": "log-0.4.30",
+            "package_key": "log-0.4.32",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2562,7 +2562,7 @@
         "runtime_dependencies": [
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2682,7 +2682,7 @@
               "fallback"
             ]
           },
-          "kqueue-1.1.1": {
+          "kqueue-1.2.0": {
             "runtime_dependencies": [
               {
                 "name": "kqueue_sys",
@@ -2712,7 +2712,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -2738,7 +2738,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -2748,7 +2748,7 @@
               },
               {
                 "name": "kqueue",
-                "package_key": "kqueue-1.1.1",
+                "package_key": "kqueue-1.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -2758,7 +2758,7 @@
               },
               {
                 "name": "kqueue",
-                "package_key": "kqueue-1.1.1",
+                "package_key": "kqueue-1.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -2778,7 +2778,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.30",
+                "package_key": "log-0.4.32",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -2788,7 +2788,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -2800,7 +2800,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -2812,7 +2812,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -2854,7 +2854,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3026,7 +3026,7 @@
               "fallback"
             ]
           },
-          "kqueue-1.1.1": {
+          "kqueue-1.2.0": {
             "runtime_dependencies": [
               {
                 "name": "kqueue_sys",
@@ -3056,7 +3056,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3082,7 +3082,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3092,7 +3092,7 @@
               },
               {
                 "name": "kqueue",
-                "package_key": "kqueue-1.1.1",
+                "package_key": "kqueue-1.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3102,7 +3102,7 @@
               },
               {
                 "name": "kqueue",
-                "package_key": "kqueue-1.1.1",
+                "package_key": "kqueue-1.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3122,7 +3122,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.30",
+                "package_key": "log-0.4.32",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3132,7 +3132,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3144,7 +3144,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3156,7 +3156,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3198,7 +3198,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3351,11 +3351,11 @@
               "fallback"
             ]
           },
-          "inotify-0.11.1": {
+          "inotify-0.11.2": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3419,7 +3419,7 @@
             "runtime_dependencies": [
               {
                 "name": "inotify",
-                "package_key": "inotify-0.11.1",
+                "package_key": "inotify-0.11.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3439,7 +3439,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.30",
+                "package_key": "log-0.4.32",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3449,7 +3449,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3461,7 +3461,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3473,7 +3473,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3515,7 +3515,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3688,11 +3688,11 @@
               "fallback"
             ]
           },
-          "inotify-0.11.1": {
+          "inotify-0.11.2": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3756,7 +3756,7 @@
             "runtime_dependencies": [
               {
                 "name": "inotify",
-                "package_key": "inotify-0.11.1",
+                "package_key": "inotify-0.11.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3776,7 +3776,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.30",
+                "package_key": "log-0.4.32",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3786,7 +3786,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3798,7 +3798,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3810,7 +3810,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3852,7 +3852,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4010,11 +4010,11 @@
               "fallback"
             ]
           },
-          "inotify-0.11.1": {
+          "inotify-0.11.2": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4078,7 +4078,7 @@
             "runtime_dependencies": [
               {
                 "name": "inotify",
-                "package_key": "inotify-0.11.1",
+                "package_key": "inotify-0.11.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4098,7 +4098,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.30",
+                "package_key": "log-0.4.32",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4108,7 +4108,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4120,7 +4120,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4132,7 +4132,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4174,7 +4174,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4332,11 +4332,11 @@
               "fallback"
             ]
           },
-          "inotify-0.11.1": {
+          "inotify-0.11.2": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4400,7 +4400,7 @@
             "runtime_dependencies": [
               {
                 "name": "inotify",
-                "package_key": "inotify-0.11.1",
+                "package_key": "inotify-0.11.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4420,7 +4420,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.30",
+                "package_key": "log-0.4.32",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4430,7 +4430,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4442,7 +4442,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4454,7 +4454,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.0",
+                "package_key": "mio-1.2.1",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4496,7 +4496,7 @@
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.11.1",
+                "package_key": "bitflags-2.12.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4623,7 +4623,7 @@
     "autocfg-1.5.1": {
       "edition": "2015"
     },
-    "bitflags-2.11.1": {
+    "bitflags-2.12.1": {
       "edition": "2021"
     },
     "blake3-1.8.5": {
@@ -4636,7 +4636,7 @@
     "cfg-if-1.0.4": {
       "edition": "2018"
     },
-    "chrono-0.4.44": {
+    "chrono-0.4.45": {
       "edition": "2021"
     },
     "clap-4.6.1": {
@@ -4683,14 +4683,14 @@
     "find-msvc-tools-0.1.9": {
       "edition": "2018"
     },
-    "gen-macros-0.1.8": {
+    "gen-macros-0.1.9": {
       "edition": "2024",
       "proc_macro": true
     },
-    "gen-platform-0.1.8": {
+    "gen-platform-0.1.9": {
       "edition": "2024"
     },
-    "gen-types-0.1.8": {
+    "gen-types-0.1.9": {
       "edition": "2024"
     },
     "getrandom-0.4.2": {
@@ -4700,7 +4700,7 @@
     "hashbrown-0.17.1": {
       "edition": "2024"
     },
-    "hashfix-0.1.1": {
+    "hashfix-0.1.2": {
       "edition": "2024",
       "lib_target": {
         "name": "hashfix",
@@ -4725,7 +4725,7 @@
     "inlinable_string-0.1.15": {
       "edition": "2018"
     },
-    "inotify-0.11.1": {
+    "inotify-0.11.2": {
       "edition": "2018"
     },
     "inotify-sys-0.1.5": {
@@ -4750,16 +4750,16 @@
     "linux-raw-sys-0.12.1": {
       "edition": "2021"
     },
-    "log-0.4.30": {
+    "log-0.4.32": {
       "edition": "2021"
     },
     "matchers-0.2.0": {
       "edition": "2018"
     },
-    "memchr-2.8.0": {
+    "memchr-2.8.1": {
       "edition": "2021"
     },
-    "mio-1.2.0": {
+    "mio-1.2.1": {
       "edition": "2021"
     },
     "notify-8.2.0": {
@@ -4849,7 +4849,7 @@
     "sharded-slab-0.1.7": {
       "edition": "2018"
     },
-    "shikumi-0.1.1": {
+    "shikumi-0.1.5": {
       "edition": "2024"
     },
     "shlex-2.0.1": {
@@ -4948,7 +4948,7 @@
     "core-foundation-sys-0.8.7": {
       "edition": "2018"
     },
-    "kqueue-1.1.1": {
+    "kqueue-1.2.0": {
       "edition": "2021"
     },
     "kqueue-sys-1.1.2": {
@@ -4956,10 +4956,10 @@
     }
   },
   "git_nar_sha256": {
-    "gen-macros-0.1.8": "sha256-1ZpcYm/FrXoWe8yShAyVLNEtgLT0iUdUav6H41QoMzc=",
-    "gen-platform-0.1.8": "sha256-1ZpcYm/FrXoWe8yShAyVLNEtgLT0iUdUav6H41QoMzc=",
-    "gen-types-0.1.8": "sha256-1ZpcYm/FrXoWe8yShAyVLNEtgLT0iUdUav6H41QoMzc=",
-    "shikumi-0.1.1": "sha256-Vw1SIFXcINha2vPklXuEiSMbmjPXYKSWedRttkb1bCE="
+    "gen-macros-0.1.9": "sha256-KkZmHxQBwz3Q4XNaJVLdl6TLLPiR+erMbGOrrvPRE0A=",
+    "gen-platform-0.1.9": "sha256-KkZmHxQBwz3Q4XNaJVLdl6TLLPiR+erMbGOrrvPRE0A=",
+    "gen-types-0.1.9": "sha256-KkZmHxQBwz3Q4XNaJVLdl6TLLPiR+erMbGOrrvPRE0A=",
+    "shikumi-0.1.5": "sha256-uJTTHe6e/0mPz6zZsh1exQCnr1DOdxXsimqFoqEUc48="
   },
   "flake_metadata": {}
 }

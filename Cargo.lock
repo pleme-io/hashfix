@@ -125,9 +125,9 @@ checksum = "f2032f911046de80f0a198e0901378627c33f59ea0ac00e363d481118bd70a53"
 
 [[package]]
 name = "bitflags"
-version = "2.11.1"
+version = "2.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c4512299f36f043ab09a583e57bceb5a5aab7a73db1805848e8fef3c9e8c78b3"
+checksum = "84d7ced0ae9557296835c32bf1b1e02b44c746701f898460fb000d7eaa84f00a"
 
 [[package]]
 name = "blake3"
@@ -173,9 +173,9 @@ checksum = "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801"
 
 [[package]]
 name = "chrono"
-version = "0.4.44"
+version = "0.4.45"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c673075a2e0e5f4a1dde27ce9dee1ea4558c7ffe648f576438a20ca1d2acc4b0"
+checksum = "1aa79e62e7697b8e29b513a68abacf485adcd1fe8284a4316c5ae868e6633327"
 dependencies = [
  "iana-time-zone",
  "js-sys",
@@ -327,8 +327,8 @@ dependencies = [
 
 [[package]]
 name = "gen-macros"
-version = "0.1.8"
-source = "git+https://github.com/pleme-io/gen#32ed7d29631ac351566e5745a96ef60328e1cf30"
+version = "0.1.9"
+source = "git+https://github.com/pleme-io/gen#6d82c9d3885c781e923ec46330d05d7eca469a3b"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -337,8 +337,8 @@ dependencies = [
 
 [[package]]
 name = "gen-platform"
-version = "0.1.8"
-source = "git+https://github.com/pleme-io/gen#32ed7d29631ac351566e5745a96ef60328e1cf30"
+version = "0.1.9"
+source = "git+https://github.com/pleme-io/gen#6d82c9d3885c781e923ec46330d05d7eca469a3b"
 dependencies = [
  "gen-macros",
  "gen-types",
@@ -350,8 +350,8 @@ dependencies = [
 
 [[package]]
 name = "gen-types"
-version = "0.1.8"
-source = "git+https://github.com/pleme-io/gen#32ed7d29631ac351566e5745a96ef60328e1cf30"
+version = "0.1.9"
+source = "git+https://github.com/pleme-io/gen#6d82c9d3885c781e923ec46330d05d7eca469a3b"
 dependencies = [
  "blake3",
  "chrono",
@@ -392,7 +392,7 @@ checksum = "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a"
 
 [[package]]
 name = "hashfix"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "anyhow",
  "clap",
@@ -462,9 +462,9 @@ checksum = "c8fae54786f62fb2918dcfae3d568594e50eb9b5c25bf04371af6fe7516452fb"
 
 [[package]]
 name = "inotify"
-version = "0.11.1"
+version = "0.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bd5b3eaf1a28b758ac0faa5a4254e8ab2705605496f1b1f3fbbc3988ad73d199"
+checksum = "533e68a5842e734946fe159fb03fc9bbbb254f590dd0d8ad321ae5ff7beca2c1"
 dependencies = [
  "bitflags",
  "inotify-sys",
@@ -515,9 +515,9 @@ dependencies = [
 
 [[package]]
 name = "kqueue"
-version = "1.1.1"
+version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eac30106d7dce88daf4a3fcb4879ea939476d5074a9b7ddd0fb97fa4bed5596a"
+checksum = "273c0752728918e0ac4976f2b275b6fefb9ecd400585dec929419f3844cd87b5"
 dependencies = [
  "kqueue-sys",
  "libc",
@@ -559,9 +559,9 @@ checksum = "32a66949e030da00e8c7d4434b251670a91556f4144941d37452769c25d58a53"
 
 [[package]]
 name = "log"
-version = "0.4.30"
+version = "0.4.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "616ec5685824bcc94416c6d4a7a446eea774a31efd7062c8480ba6fd06d7a6e5"
+checksum = "953f07c43838f8e6f9758cab68bf5bed85465e7587ebe0b823f1bcd81978ad3a"
 
 [[package]]
 name = "matchers"
@@ -574,15 +574,15 @@ dependencies = [
 
 [[package]]
 name = "memchr"
-version = "2.8.0"
+version = "2.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
+checksum = "6b947ae49db0d222b1dbc6b113ce7248a3fc3a6ca21b696717bfc000ba4484d8"
 
 [[package]]
 name = "mio"
-version = "1.2.0"
+version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "50b7e5b27aa02a74bac8c3f23f448f8d87ff11f92d3aac1a6ed369ee08cc56c1"
+checksum = "02bd0af71c67b473010cbbc60715ee815645a4dc942899111f494b4b737d6fda"
 dependencies = [
  "libc",
  "log",
@@ -867,8 +867,8 @@ dependencies = [
 
 [[package]]
 name = "shikumi"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/shikumi?branch=main#0d50d62e78a0e1d69ac4e92fb2d5c9032babeab6"
+version = "0.1.5"
+source = "git+https://github.com/pleme-io/shikumi?branch=main#051b11cd4a6ec76409d2482e6db9c9f2b051822c"
 dependencies = [
  "arc-swap",
  "async-trait",
